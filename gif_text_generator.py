@@ -14,7 +14,7 @@ for i in range(len(texto)):
 
     # Agregar el texto
     d = ImageDraw.Draw(img) 
-    d.text((10,20), concatenate_text + texto[i], fill=("green"), align="center", font=fuente)
+    d.text((10,20), concatenate_text + texto[i], fill=(46, 221, 23), align="center", font=fuente)
     
     # Crear una lista de todas las imágenes que desea incluir en el GIF
     images.append(img)
